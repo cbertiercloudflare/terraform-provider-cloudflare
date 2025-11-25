@@ -1,5 +1,27 @@
 # Changelog
 
+## 5.14.0 (2025-11-25)
+
+Full Changelog: [v5.13.0...v5.14.0](https://github.com/cloudflare/terraform-provider-cloudflare/compare/v5.13.0...v5.14.0)
+
+### Features
+
+* chore: point Terraform to Go 'next' ([85215a8](https://github.com/cloudflare/terraform-provider-cloudflare/commit/85215a87d614dda207d89f83b26f86f601a08946))
+* feat: BOTS-7562 add bot management feedback endpoints to stainless config (prod) ([5461916](https://github.com/cloudflare/terraform-provider-cloudflare/commit/5461916d17fe0ed6b517cd35a22523d7556fe31a))
+
+
+### Bug Fixes
+
+* **zone:** datasource model schema parity ([#6487](https://github.com/cloudflare/terraform-provider-cloudflare/issues/6487)) ([6608b66](https://github.com/cloudflare/terraform-provider-cloudflare/commit/6608b661c6c242f33f94b0c483eed5f27d50a303))
+
+
+### Chores
+
+* **api:** update composite API spec ([1e9f298](https://github.com/cloudflare/terraform-provider-cloudflare/commit/1e9f29812cc2c52afac2a33e9e66814f84c45bfe))
+* **internal:** codegen related update ([6f3c739](https://github.com/cloudflare/terraform-provider-cloudflare/commit/6f3c73975e4c6f36b8418184a201f3f0d7cbe446))
+* update changelog ([#6480](https://github.com/cloudflare/terraform-provider-cloudflare/issues/6480)) ([adba156](https://github.com/cloudflare/terraform-provider-cloudflare/commit/adba156599c44b43277c7d4b5694f3ccde2408a3))
+* **zone:** update migration tests ([#6468](https://github.com/cloudflare/terraform-provider-cloudflare/issues/6468)) ([635b77e](https://github.com/cloudflare/terraform-provider-cloudflare/commit/635b77ed0dce21c4ca732b9897184dd0b9c02d7a))
+
 ## 5.13.0 (2025-11-21)
 
 Full Changelog: [v5.12.0...v5.13.0](https://github.com/cloudflare/terraform-provider-cloudflare/compare/v5.12.0...v5.13.0)
